@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+h1 {
+	font-weight: normal;
+	font-size: 30px;
+	color: #35650e;
+	margin-bottom: 19px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 24px;
+	color: #35650e;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #35650e;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #35650e;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	padding-bottom: 12px;
+}
+
+ul {
+	list-style: disc;
+	padding-left: 40px;
+	padding-top: 2px;
+	padding-bottom: 12px;
+}
+
+.center-content {
+	margin: auto;
+	width: 674px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+body {
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	color: #383838;
+	background: #37670f;
+}
+
+#container {
+	background: #ffffff;
+}
+
+#header {
+	height: 110px;
+	width: 100%;
+	background-image: url("../images/header-gradient.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #609c2f;
+}
+
+.content-box {
+	width: 760px;
+	margin: auto;
+	text-align: left;
+}
+
+#header-img {
+	margin-top: 50px;
+	margin-left: 43px;
+}
+
+#menubar {
+	height: 30px;
+	width: 100%;
+	background-color: #749658;
+	text-align: left;
+}
+
+ul#menu {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 7px 0px 0px 43px;
+    list-style-type: none;
+}
+
+ul#menu li a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+ul#menu li a:hover {
+	color: #f1e96e;
+}
+
+.current {
+	font-weight: bold;
+}
+
+#body {
+	width: 674px;
+	margin: auto;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+#body-left {
+	width: 337px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#logo {
+	margin-top: 48px;
+}
+
+ul#modules {
+	margin-top: 36px;
+	font-size: 18px;
+	color: #5f9b2f;
+	list-style: none;
+	padding: 0px;
+}
+
+#body-right {
+	width: 337px;
+	float: right;
+	padding-top: 14px;
+}
+
+#more-btn {
+	margin-right: 10px;
+}
+
+#footer {
+	height: 102px;
+	width: 100%;
+	background-image: url("../images/footer-gradient.gif");
+	background-repeat: repeat-x;
+	background-color: #37670f;
+	clear: both;
+	color: #98b982;
+	font-size: 12px;
+	text-align: left;
+}
+
+
+#footer-box {
+	float: left;
+	text-align: left;
+	padding: 10px 0px 10px 0px;
+}
